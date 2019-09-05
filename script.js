@@ -1,3 +1,4 @@
+
 // DOM
 const app = document.getElementById('root')
 const logo = document.createElement('img')
@@ -62,7 +63,7 @@ fetch('https://ghibliapi.herokuapp.com/films')
       container.appendChild(card)
       card.appendChild(h1)
       card.appendChild(p)
-          })
+    })
 	})
 	.catch(function (error) {
 		console.log('error', error);
